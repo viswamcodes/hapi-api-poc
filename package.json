@@ -1,0 +1,31 @@
+{
+  "name": "hapi-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts-node-dev": "ts-node-dev",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "colors": "^1.4.0",
+    "dynamoose": "^2.8.5",
+    "node-emoji": "^1.11.0",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.8",
+    "typeorm": "^0.3.6"
+  },
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/hapi__hapi": "^20.0.12",
+    "@types/node": "^18.0.0",
+    "@types/node-emoji": "^1.8.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  }
+}
